@@ -1,0 +1,29 @@
+{
+  "name": "practice-jumia-inventory-management-system",
+  "version": "1.0.0",
+  "description": "A Practice to create on online store inventory management system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.2",
+    "env": "^0.0.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.1",
+    "nodemon": "^3.1.14"
+  },
+  "allowScripts": {
+    "env@0.0.2": true,
+    "bcrypt@6.0.0": true,
+    "bcryptjs@3.0.3": true,
+    "dotenv@17.4.2": true
+  }
+}
