@@ -35,11 +35,10 @@ const userSchema = new mongoose.Schema({
     hasAtmCard: {
         type: Boolean,
         default: false
-    },
-    
-    timestamps = true //Date Created, modified and updated at
-
-});
+    }
+},
+{timestamps = true} //Date Created, modified and updated at
+);
 
 //Create model from schema
 const User = mongoose.model('User', userSchema);
